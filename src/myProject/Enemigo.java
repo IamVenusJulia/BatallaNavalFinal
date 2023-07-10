@@ -9,9 +9,9 @@ import java.util.Random;
  */
 public class Enemigo extends JFrame {
     public static final String PATH = "/rsc/";
-    private Header titulo;
+    private myProject.Header titulo;
     private PCasillasCPU PCasillasCPU;
-    private colocarBarcosCPU colocarBarcosCPU;
+    private myProject.colocarBarcosCPU colocarBarcosCPU;
     private myProject.GUI guiPrincipal;
     private int contadorHundidos;
     private int estado; // 1 si continua, 2 si gana el oponente, de lo contrario 0
@@ -63,12 +63,12 @@ public class Enemigo extends JFrame {
         panelPrincipal.add(panelCentral,BorderLayout.CENTER);
         panelCentral.setLayout(new GridBagLayout());
         PCasillasCPU = new PCasillasCPU();
-        colocarBarcosCPU = new colocarBarcosCPU(PCasillasCPU);
+        colocarBarcosCPU = new myProject.colocarBarcosCPU(PCasillasCPU);
         panelCentral.add(PCasillasCPU);
 
         // Set up JComponents
         // Titulo
-        titulo = new Header("MOVIMIENTOS ENEMIGO", Color.decode("#67595A"));
+        titulo = new myProject.Header("MOVIMIENTOS ENEMIGO", Color.decode("#67595A"));
         panelSup.add(titulo,FlowLayout.LEFT);
 
     }
@@ -243,7 +243,7 @@ public class Enemigo extends JFrame {
      * Retorna el objeto para pintar la flota oponente
      * @return colocarBarcosCPU
      */
-    public colocarBarcosCPU getPintarFlotaOponente(){
+    public myProject.colocarBarcosCPU getPintarFlotaOponente(){
         return colocarBarcosCPU;
     }
 

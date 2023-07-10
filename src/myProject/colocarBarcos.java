@@ -3,7 +3,7 @@ package myProject;
 import javax.swing.*;
 import java.util.ArrayList;
 
-public class colocarBarcos {
+public class colocarBarcos{
     private myProject.PCasillas PCasillas;
     private myProject.PBarcos PBarcos;
     private int barcoUsado; // Acumulador para identificar cuál nave ha sido desplegada (en orden del 1 al 10)

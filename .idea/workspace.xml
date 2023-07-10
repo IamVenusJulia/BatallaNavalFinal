@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c038eb4f-9f54-4c96-8598-b836b48abd8c" name="Changes" comment="Enemigo, Casillas y Header por enésima vez">
-      <change afterPath="$PROJECT_DIR$/src/PBarcos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PCasillas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PCasillas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pelea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pelea.java" afterDir="false" />
+    <list default="true" id="c038eb4f-9f54-4c96-8598-b836b48abd8c" name="Changes" comment="Clase para que el CPU coloque barcos">
+      <change afterPath="$PROJECT_DIR$/src/myProject/PCasillasCPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myProject/Pelea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casillas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myProject/Casillas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enemigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myProject/Enemigo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myProject/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myProject/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PBarcos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myProject/PBarcos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PCasillas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myProject/PCasillas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PCasillasCPU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pelea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colocarBarcos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myProject/colocarBarcos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colocarBarcosCPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myProject/colocarBarcosCPU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +83,36 @@
       <option name="project" value="LOCAL" />
       <updated>1688962425533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Panel de los barcos">
+      <created>1688964216720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688964216720</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Panel de los barcos y de colocar Barcos.">
+      <created>1688964278956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688964278956</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Clase para que el CPU coloque barcos">
+      <created>1688964383589</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688964383589</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Enemigo y Header por enésima vez" />
     <MESSAGE value="Enemigo, Casillas y Header por enésima vez" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enemigo, Casillas y Header por enésima vez" />
+    <MESSAGE value="Panel de los barcos" />
+    <MESSAGE value="Panel de los barcos y de colocar Barcos." />
+    <MESSAGE value="Clase para que el CPU coloque barcos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase para que el CPU coloque barcos" />
   </component>
 </project>
