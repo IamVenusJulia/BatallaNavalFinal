@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c038eb4f-9f54-4c96-8598-b836b48abd8c" name="Changes" comment="Enemigo y Header por enésima vez">
-      <change afterPath="$PROJECT_DIR$/src/Casillas.java" afterDir="false" />
+    <list default="true" id="c038eb4f-9f54-4c96-8598-b836b48abd8c" name="Changes" comment="Enemigo, Casillas y Header por enésima vez">
+      <change afterPath="$PROJECT_DIR$/src/PBarcos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PCasillas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PCasillas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pelea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pelea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,13 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -50,11 +60,26 @@
       <option name="project" value="LOCAL" />
       <updated>1688962180726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Enemigo, Casillas y Header por enésima vez">
+      <created>1688962350009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688962350009</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Enemigo, Casillas y Header por enésima vez">
+      <created>1688962425533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688962425533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Enemigo y Header por enésima vez" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enemigo y Header por enésima vez" />
+    <MESSAGE value="Enemigo, Casillas y Header por enésima vez" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enemigo, Casillas y Header por enésima vez" />
   </component>
 </project>
