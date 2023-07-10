@@ -19,12 +19,12 @@ public class GUI extends JFrame {
     private Listener listener;
     private ImageIcon play, reinicio;
     private JPanel northPanel, southPanel, eastPanel, centralPanel;
-    private PCasillas PCasillas;
+    private myProject.PCasillas PCasillas;
     private colocarBarcos colocarBarcos;
     private PBarcos PBarcos;
     private myProject.Enemigo opponentwindow;
     private int faseJuego; // 1 seleccionar barco, 2 seleccionar orientacion del barco, 3 seleccionar sentido del barco, 4 colocar barco en el tablero, 5 pelea, 6 turno del oponente
-    private Pelea pelea;
+    private myProject.Pelea pelea;
     private int hundidosCount; // Contador de barcos hundidos
     private Timer time; // establece el tiempo que tarde el oponente en escoger casilla
     private Image image;
@@ -104,7 +104,7 @@ public class GUI extends JFrame {
         northPanel.add(header, FlowLayout.LEFT);
 
         // Casillas
-        PCasillas = new PCasillas();
+        PCasillas = new myProject.PCasillas();
         colocarBarcos = new colocarBarcos(PCasillas, PBarcos);
         eastPanel.add(PCasillas); // Cambio de "panelEste" a "panelOeste"
 
@@ -142,7 +142,7 @@ public class GUI extends JFrame {
         }
 
         // funciones de pelea
-        pelea = new Pelea(PCasillas, opponentwindow.getPanelTableroOponente());
+        pelea = new myProject.Pelea(PCasillas, opponentwindow.getPanelTableroOponente());
 
         hundidosCount = 0;
         // Timer para el turno del oponente
@@ -335,7 +335,7 @@ public class GUI extends JFrame {
      * Retorna el objeto de clase PCasillas
      * @return PCasillas
      */
-    public PCasillas getPanelTablero(){
+    public myProject.PCasillas getPanelTablero(){
         return PCasillas;
     }
 
